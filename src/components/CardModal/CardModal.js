@@ -3,13 +3,11 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-
 var card_style = { 'max-width':'445px', 'margin': '10px'};
 var card_media_style = { 'height': '0', 'padding-top': '56.25%'}
 var div_style = {'width':'100%', 'display': 'inline-flex'}
 
 class CardModal extends Component {
-
     render() {
         return (
             <div>
