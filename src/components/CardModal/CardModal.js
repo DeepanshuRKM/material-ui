@@ -13,6 +13,9 @@ class CardModal extends Component {
     render() {
         return (
             <div>
+                <Typography variant="headline" gutterBottom>
+                        Featured Super Venues
+                    </Typography>
                 <div style={div_style}>
                     <Card style={card_style}>
                         <CardMedia
@@ -60,49 +63,53 @@ class CardModal extends Component {
                         </CardContent>
                     </Card>
                 </div>
+                <Typography variant="headline" gutterBottom>
+                        Venumob Stories
+                    </Typography>
                 <div style={div_style}>
                     <Card style={card_style}>
                         <CardMedia
                             style={card_media_style}
-                            image="/image.jpg"
+                            image="/venuemob-image.jpg"
                             title="Contemplative Reptile"
                         />
                         <CardContent>
                             <Typography gutterBottom variant="headline" component="h2">
-                                Campari House
+                                Event Showcase: Party Beyond at Scienceworks
                             </Typography>
                             <Typography component="p">
-                                Though it may sound like the Melbourne consulate for Italy’s much-loved bitter red aperitif
+                                Experience the collision of art, science and music as Scienceworks open late for guests to party beyond perception.
+
                             </Typography>
                         </CardContent>
                     </Card>
                     <Card style={card_style}>
                         <CardMedia
                             style={card_media_style}
-                            image="/image (1).jpg"
+                            image="/venuemob-image (1).jpg"
                             title="Contemplative Reptile"
                         />
                         <CardContent>
                             <Typography gutterBottom variant="headline" component="h2">
-                                Carlton Brewhouse
+                                Woodland House – an epicurean delight
                             </Typography>
                             <Typography component="p">
-                                The Carlton Brewhouse is located at the iconic Carlton &amp; United Brewery in Abbotsford and is the official home of Australia’s most popular draught beer,
+                                An incredible setting, superb service and award-winning cuisine make for memorable events – just ask the team at Woodland House.
                             </Typography>
                         </CardContent>
                     </Card>
                     <Card style={card_style}>
                         <CardMedia
                             style={card_media_style}
-                            image="/image (2).jpg"
+                            image="/venuemob-image (2).jpg"
                             title="Contemplative Reptile"
                         />
                         <CardContent>
                             <Typography gutterBottom variant="headline" component="h2">
-                                Mofo Lounge
+                                Food trucks, tiny dogs and big parties at Welcome to Bowen Hill
                             </Typography>
                             <Typography component="p">
-                                Prahran's Mofo Lounge is a venue that specialises in intimate social events – when it's not a public bar
+                                Brisbane's Welcome to Bowen Hills well and truly embraces a sense of cheeky fun – whether it's a weekend 'tiny dog festival', or a large-scale function.
                             </Typography>
                         </CardContent>
                     </Card>

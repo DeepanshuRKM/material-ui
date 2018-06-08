@@ -71,9 +71,7 @@ class App extends Component {
 
 
                 <div className="jss7">
-                    <Typography variant="headline" gutterBottom>
-                        Featured Super Venues
-                    </Typography>
+
                     <CardModal />
                     <GridList cellHeight={320} cols={4}>
                         <GridListTile key="/image.jpg">
