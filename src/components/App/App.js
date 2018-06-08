@@ -6,6 +6,7 @@ import Button from '@material-ui/core/Button';
 import SearchModal from '../SearchModal/SearchModal';
 import CityMenuModal from '../CityMenu/CityMenuModal';
 import CardModal from '../CardModal/CardModal';
+import ClientModal from '../ClientModal/ClientModal';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
@@ -65,13 +66,9 @@ class App extends Component {
                         <Button>Blogs</Button>
                         <CityMenuModal />
                         <Button onClick={this.toggle_drawer('right', true)}>Open Right</Button>
-
                     </Toolbar>
                 </AppBar>
-
-
                 <div className="jss7">
-
                     <CardModal />
                     <GridList cellHeight={320} cols={4}>
                         <GridListTile key="/image.jpg">
@@ -103,6 +100,7 @@ class App extends Component {
                             />
                         </GridListTile>
                     </GridList>
+                    <ClientModal />
                 </div>
             </div>
         );
