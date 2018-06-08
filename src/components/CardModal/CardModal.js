@@ -14,8 +14,8 @@ class CardModal extends Component {
         return (
             <div>
                 <Typography variant="headline" gutterBottom>
-                        Featured Super Venues
-                    </Typography>
+                    Featured Super Venues
+                </Typography>
                 <div style={div_style}>
                     <Card style={card_style}>
                         <CardMedia
@@ -64,8 +64,8 @@ class CardModal extends Component {
                     </Card>
                 </div>
                 <Typography variant="headline" gutterBottom>
-                        Venumob Stories
-                    </Typography>
+                    Venumob Stories
+                </Typography>
                 <div style={div_style}>
                     <Card style={card_style}>
                         <CardMedia
